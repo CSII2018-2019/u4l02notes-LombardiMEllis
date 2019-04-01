@@ -31,7 +31,10 @@ public class U4L02Notes extends JFrame {
 		titleLabel.setForeground(Color.WHITE);
 		titlePanel.add(titleLabel);
 		add(titlePanel, BorderLayout.PAGE_START);
-
+		
+		//image panel
+		ImagePanel imgPanel = new ImagePanel(FILE_NAME);
+		add(imgPanel, BorderLayout.CENTER);
 
 	}
 	
